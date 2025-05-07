@@ -1,0 +1,7 @@
+*.xlsx
+*.csv
+/.venv
+.idea
+__pycache__
+.ipynb_checkpoints
+*.properties
