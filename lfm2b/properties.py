@@ -12,3 +12,11 @@ LFM2B_DB = Path(LFM2B_ROOT, p["lfm2b-db"].data)
 LFM2B_ENHANCED_DB = Path(LFM2B_ENHANCED_ROOT, p["lfm2b-enhanced-db"].data)
 LOG_PATH = Path(LFM2B_ROOT, p["logfile"].data)
 CSV_FOLDER = Path(p["csv-root-folder"].data)
+LYRICS_ROOT_FOLDER = Path(p['lyrics-root-folder'].data)
+GENIUS_DB = Path(LYRICS_ROOT_FOLDER, p["genius-db"].data)
+POSTGRES_CREDENTIALS = {
+    "user" : p["postgres-username"].data,
+    "password" : p["postgres-password"].data,
+    "host" : p["postgres-host"].data,
+    "port" : p["postgres-port"].data
+}
