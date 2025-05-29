@@ -1,0 +1,17 @@
+from enum import Enum
+class Section(Enum):
+    INTRO = "Intro"
+    VERSE = "Verse"
+    PRE_CHORUS = "Pre-Chorus"
+    CHORUS = "Chorus"
+    POST_CHORUS = "Post-Chorus"
+    PRE_HOOK = "Pre-Hook"
+    HOOK = "Hook"
+    POST_HOOK = "Post-Hook"
+    BRIDGE = "Bridge"
+    OUTRO = "Outro"
+    INSTRUMENTAL = "Instrumental"
+    VAMP = "Vamp"
+    BREAK = "Break"
+    SOLO = "Solo"
+    OTHER = "Other"
