@@ -12,3 +12,13 @@ def execute_script(script_path, cursor):
     with open(script_path, "r") as script_file:
        script = script_file.read().strip()
        cursor.execute(script)
+
+def find_first(pred, iterable):
+    """ Find first element of the iterable satisfying the predicate. If no match is found, returns None"""
+    for e in iterable:
+        if pred(e):
+            return e
+    return None
+
+def song_filter_id(id : int):
+    return lambda song : song.id == id
