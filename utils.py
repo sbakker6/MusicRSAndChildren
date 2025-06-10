@@ -1,3 +1,5 @@
+import os
+from pathlib import Path
 import psycopg2
 from properties import POSTGRES_CREDENTIALS
 
@@ -22,3 +24,8 @@ def find_first(pred, iterable):
 
 def song_filter_id(id : int):
     return lambda song : song.id == id
+
+def make_folder_if_not_exists(fname : Path):
+    if not os.path.exists(fname):
+        os.makedirs(fname)
+    return fname
