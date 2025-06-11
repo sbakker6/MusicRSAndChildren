@@ -43,10 +43,7 @@ CREATE TABLE cluster (
     pos_std_break REAL, 
     amt_solo REAL, 
     pos_avg_solo REAL, 
-    pos_std_solo REAL, 
-    amt_other REAL, 
-    pos_avg_other REAL, 
-    pos_std_other REAL
+    pos_std_solo REAL
 );
 
 CREATE INDEX  ON cluster(cluster_id); 
