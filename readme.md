@@ -11,10 +11,10 @@ The research paper is available at [TU Delft Repository](http://repository.tudel
 We use a preprocessed version of the LastFM 2b (LFM2b) dataset from the paper [The Impact of Mainstream-Driven Algorithms on Recommendations for Children](https://link.springer.com/chapter/10.1007/978-3-031-88714-7_5) by R. Ungruh, A. Bellogin and M.S. Pera to do the analysis and match it with the [Genius-Expertise](https://www.cs.cornell.edu/%7Earb/data/genius-expertise/) (GE) dataset.
 
 This repository contains
-- the code used to produce the linkage between LFM2b-GL;
+- the code used to produce the linkage between LFM2b and GE;
 - the code used to extract structure fingerprints from lyrics;
 - figures (inclusive the code to create them) used in the paper
-- the final LFM2b-GL linkage (in the `datafiles` directory)
+- the final LFM2b-GE linkage (in the `datafiles` directory)
 
 >**!!** This repository does **not** distribute the LFM2b dataset, as it is not available for download anymore due to [licensing issues](https://www.cp.jku.at/datasets/LFM-2b/) (as of June 2025). Despite this, those who already poses the dataset can use it to reproduce the analysis and can use the LFM2b-GL linkage out of the box. 
 
