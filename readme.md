@@ -8,7 +8,7 @@ For all songs in a combined dataset we calculate a structural fingerprint based 
 
 The research paper is available at [TU Delft Repository](http://repository.tudelft.nl). 
 
-We use a preprocessed version of the LastFM 2b (LFM2b) dataset to do the analysis and match it with the [Genius-Expertise](https://www.cs.cornell.edu/%7Earb/data/genius-expertise/) (GL) dataset.
+We use a preprocessed version of the LastFM 2b (LFM2b) dataset from the paper [The Impact of Mainstream-Driven Algorithms on Recommendations for Children](https://link.springer.com/chapter/10.1007/978-3-031-88714-7_5) by R. Ungruh, A. Bellogin and M.S. Pera to do the analysis and match it with the [Genius-Expertise](https://www.cs.cornell.edu/%7Earb/data/genius-expertise/) (GE) dataset.
 
 This repository contains
 - the code used to produce the linkage between LFM2b-GL;
